@@ -28,8 +28,8 @@ def getSecrets()->None:
     return secrets
 
 #Main Process
-start_date = "1/01/2023"
-end_date = "1/04/2023"
+start_date = "1/04/2023"
+end_date = "5/04/2023"
 secrets = getSecrets() #Loads env variables
 
 owm = pyowm.OWM('API_KEY')
